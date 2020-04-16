@@ -1,0 +1,102 @@
+[Root]
+Most Recent Package=Paquete de instalación estándar 1
+
+
+[Package|Paquete de instalación estándar 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=F:\Instaladores\Component Cleaner
+
+[Package|Paquete de instalación estándar 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Paquete de instalación estándar 1|Files Found]
+
+[Package|Paquete de instalación estándar 1|Files Released]
+
+[Package|Paquete de instalación estándar 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM32\pvb_xmenu.dll=
+C:\WINDOWS\SYSTEM32\TLBINF32.DLL=
+
+[Package|Paquete de instalación estándar 1|Out-of-Date Dependency Information]
+
+[Package|Paquete de instalación estándar 1|Files Added]
+
+[Package|Paquete de instalación estándar 1|Files Removed]
+c:\windows\system32\msvbvm60.dll=
+c:\windows\system32\oleaut32.dll=
+c:\windows\system32\olepro32.dll=
+c:\windows\system32\asycfilt.dll=
+c:\windows\system32\stdole2.tlb=
+c:\windows\system32\comcat.dll=
+
+[Package|Paquete de instalación estándar 1|Files In Project]
+F:\ProyectoVB\Aplicaciones\Component Cleaner\ccleaner.exe=Yes
+C:\WINDOWS\SYSTEM32\msvbvm60.dll=No
+C:\WINDOWS\SYSTEM32\oleaut32.dll=No
+C:\WINDOWS\SYSTEM32\olepro32.dll=No
+C:\WINDOWS\SYSTEM32\asycfilt.dll=No
+C:\WINDOWS\SYSTEM32\stdole2.tlb=No
+C:\WINDOWS\SYSTEM32\comcat.dll=No
+C:\WINDOWS\SYSTEM32\VB6ES.DLL=Yes
+C:\WINDOWS\SYSTEM32\TLBINF32.DLL=Yes
+C:\WINDOWS\SYSTEM32\pvb_xmenu.dll=Yes
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=Yes
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Paquete de instalación estándar 1|Configure Registry Files]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Paquete de instalación estándar 1|Install Locations]
+F:\ProyectoVB\Aplicaciones\Component Cleaner\ccleaner.exe=$(AppPath)
+C:\WINDOWS\SYSTEM32\VB6ES.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\TLBINF32.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\pvb_xmenu.dll=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM32\RICHTX32.OCX=$(WinSysPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Archivos de programa\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Paquete de instalación estándar 1|Configure Shared Files]
+Applicable=Yes
+F:\ProyectoVB\Aplicaciones\Component Cleaner\ccleaner.exe=No
+
+[Package|Paquete de instalación estándar 1|Distribution]
+Type=single
+Size=
+Title=Component Cleaner
+
+[Package|Paquete de instalación estándar 1|IconGroups]
+Group0=VBSoftware
+PrivateGroup0=Verdadero
+Parent0=$(Programs)
+
+[Package|Paquete de instalación estándar 1|VBSoftware]
+Icon1=ccleaner.exe
+Title1=Component Cleaner
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Paquete de instalación estándar 1|Package]
+PackageFolder=F:\Instaladores\Component Cleaner
+ProjectFolder=F:\ProyectoVB\Aplicaciones\Component Cleaner
+ServerSideCab=
+File1=F:\Instaladores\Component Cleaner\setup.exe
+File2=F:\Instaladores\Component Cleaner\Setup.Lst
+File3=F:\Instaladores\Component Cleaner\ccleaner.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
